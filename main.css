@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    background: #FFB6C1;  
+    background: -webkit-linear-gradient(to top, #FAF0E6, #FFB6C1);  
+    background: linear-gradient(to top, #FAF0E6, #FFB6C1); 
+    background-repeat: no-repeat;
+    min-height: 100%;
+  }
+
+  .card {
+    background-color: #B03060;
+    font-family: "Noto Sans JP";
+    width: 400px;
+    margin: 3rem auto;
+    padding: 1.75rem 2.75rem;
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 6px -1px #343434;
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+  .title {
+    background-color: #DB7093;
+    font-size: 1.5625rem;
+    color: #FFF0F5;
+    text-align: center;
+    padding: 1rem;
+    margin: -1.75rem -2.75rem 1.75rem -2.75rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    padding: 0.45rem 3rem;
+    margin-bottom: 0.75rem;
+    flex-grow: 1;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+  .field { 
+    display: flex;
+  }
+
+  .qa {
+    font-size: 0.875rem;
+    color: #FFF0F5;
+    margin-top: 1.25rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .btn-submit {
+    padding: 0.5rem 1.25rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 10px;
+    border: none;
+    background-color: #708090;
+    color: #FFFFFF;
+  }
+  
+  .bt-submit {
+      justify-content: center;
+      display: flex;
+  }
+
+
